@@ -5,11 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <script src="https://kit.fontawesome.com/4481cd3aff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
-    <title>Sam's Portfolio</title>
+    <title>View My Work</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        #customers {
+          font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        #customers td, #customers th {
+          border: 1px solid #ddd;
+          padding: 8px;
+        }
+                
+        #customers tr:hover {background-color: rgb(36, 71, 82);}
+        
+        #customers th {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          text-align: left;
+          background-color: #2585A2;
+          color: white;
+        }
+        </style>
 </head>
-<body id="bg-img">
-    <header>
+<body>
         <div class="menu-btn">
           <div class="btn-line"></div>
           <div class="btn-line"></div>
@@ -21,7 +42,7 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li class="nav-item">
                     <a href="index.html" class="nav-link">
                     Home
                 </a>
@@ -31,7 +52,7 @@
                     About
                 </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item current">
                     <a href="work.html" class="nav-link">
                     My Work
                 </a>
@@ -44,26 +65,36 @@
             </ul>
         </nav>
 
-        <main id="home">
+        <main id="work">
             <h1 class="lg-heading">
-                Sam 
-            <span class="text-secondary">Matthews</span>
+                My
+            <span class="text-secondary">Work</span>
             </h1>
             <h2 class="sm-heading">
-                Software Engineer using C#, JavaScript and Oracle SQL
+                My Projects
             </h2>
-            <div class="icons">
-                <a href="https://uk.linkedin.com/in/sam-matthews-62b64b135" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="https://www.github.com/hellosamzo" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github  fa-2x"></i>
-                </a>
-            </div>
-        </main>
-    </header>
-
-
+      <table id="customers">
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Languages</th>
+        </tr>
+        <tr>
+          <td>Movie Helper</td>
+          <td>blaahlahblah</td>
+          <td>Python (Django)</td>
+        </tr>
+        <tr>
+          <td>Pyvestment</td>
+          <td>Investment Tracker</td>
+          <td>Python</td>
+        </tr>
+        <tr>
+          <td>2D Platformer</td>
+          <td>Shooter Platformer</td>
+          <td>C#</td>
+        </tr>
+      </table>
     <script src="js/main.js"></script>
 </body>
 </html>
