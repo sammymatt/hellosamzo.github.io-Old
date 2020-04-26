@@ -7,27 +7,37 @@
     <link rel="stylesheet" href="css/main.css">
     <title>View My Work</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- move css to its own file -->
     <style>
-        #customers {
+        #projects {
           font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
           border-collapse: collapse;
           width: 100%;
         }
         
-        #customers td, #customers th {
+        #projects td, #projects th {
           border: 1px solid #ddd;
           padding: 8px;
         }
                 
-        #customers tr:hover {background-color: rgb(36, 71, 82);}
+        #projects tr:hover {background-color: rgb(36, 71, 82);}
         
-        #customers th {
+        #projects th {
           padding-top: 12px;
           padding-bottom: 12px;
-          text-align: left;
+          text-align: center;
           background-color: #2585A2;
           color: white;
         }
+
+      
+          a:hover {
+            text-decoration: underline;
+}
+
+      tr:nth-of-type(odd) {
+      background-color: rgb(83, 83, 83)
+    }
         </style>
 </head>
 <body>
@@ -73,26 +83,48 @@
             <h2 class="sm-heading">
                 My Projects
             </h2>
-      <table id="customers">
+      <table id="projects">
         <tr>
-          <th>Project</th>
+          <th>Projects</th> 
           <th>Description</th>
           <th>Languages</th>
         </tr>
         <tr>
-          <td>Movie Helper</td>
-          <td>blaahlahblah</td>
+          <td>
+            <a href="https://github.com/hellosamzo/MovieHelper">Movie Helper</a>
+          </td>
+          <td>MovieHelper is a Python Django web app which provides information and notifications about the latest movies.
+          </td>
           <td>Python (Django)</td>
         </tr>
         <tr>
-          <td>Pyvestment</td>
-          <td>Investment Tracker</td>
-          <td>Python</td>
+          <td>
+            <a href="https://github.com/hellosamzo/mbed-packet-sender">MBED Packet Sender</a>
+          </td>
+          <td>Creates and sends packets with the temperature and button presses to a UDP server via an MBED Device. 
+            Status information is then sent back and displayed on the device.</td>
+          <td>C, C++</td>
         </tr>
         <tr>
-          <td>2D Platformer</td>
-          <td>Shooter Platformer</td>
-          <td>C#</td>
+          <td>
+            <a href="https://github.com/hellosamzo/hellosamzo.github.io">Portfolio</a>
+          </td>
+          <td>The website you're currently viewing.</td>
+          <td>HTML, CSS, Sass</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/hellosamzo/git-visuals">Git Visuals</a>
+          </td>
+          <td>A command-line Git visualiser built in Go.</td>
+          <td>Go</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/hellosamzo/sams-networking-tool">SNT</a>
+          </td>
+          <td>Networking tool built using JavaFX. Allows you to do basic networking stuff such as ping, DNS etc.</td>
+          <td>Java</td>
         </tr>
       </table>
     <script src="js/main.js"></script>
