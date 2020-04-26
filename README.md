@@ -1,2 +1,2 @@
 # hellosamzo.github.io
-My website
+My website you can view at https://hellosamzo.github.io/
