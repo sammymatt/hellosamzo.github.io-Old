@@ -24,6 +24,11 @@ h1, h2, h3 {
       font-size: 6rem;
     }
 
+    &.md-heading {
+        font-size: 4rem;
+        margin: 0;
+    }
+
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
