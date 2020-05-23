@@ -282,8 +282,10 @@ main {
     padding: 2rem; }
     main #home h1 {
       margin-top: 10vh; }
-    main .lg-heading {
-      margin-top: 1rem;
-      font-size: 5rem; }
+    main.lg-heading {
+      font-size: 4rem; }
+    main.md-heading {
+      font-size: 3rem;
+      margin: 0; }
   .projects {
     grid-template-columns: 1fr; } }

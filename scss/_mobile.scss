@@ -77,9 +77,13 @@
         margin-top: 10vh;
       }
   
-      .lg-heading {
-        margin-top:1rem;
-        font-size: 5rem;
+      &.lg-heading {
+        font-size: 4rem;
+      }
+  
+      &.md-heading {
+          font-size: 3rem;
+          margin: 0;
       }
     }
   
