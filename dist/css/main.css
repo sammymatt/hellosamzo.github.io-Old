@@ -133,7 +133,12 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #2585A2; }
+  color: #2585A2; 
+}
+
+.text-sec {
+  color: #2585A2;
+}
 
 main {
   padding: 4rem;
