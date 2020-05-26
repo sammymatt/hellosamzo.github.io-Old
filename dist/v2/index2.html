@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sam's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Sam's Portfolio</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+  <script src="https://kit.fontawesome.com/4481cd3aff.js" crossorigin="anonymous"></script>
+
+  <style>
+
+  body {
+    background-image: url("img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  h1, h3 {
+    color: white;
+  }
+
+  h2 {
+    color: #D5D5D5;
+  }
+
+  h1 {
+            margin-top: 20vh;
+        }
+
+        header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; 
+  text-align:center;
+  line-height:10;
+  }
+
+  h2.sm-heading  {
+    margin-bottom: 2rem;
+    padding: 0.2rem 1rem;
+    background: rgba(73, 73, 73, 0.5); }
+
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #262424;
+    color: #FFF;
+    padding: 0% 0;
+    font-size: 1.2em;
+    border: 0;
+  }
+  .navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+  }
+  .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: #FFF;
+    background-color: #262424;
+  }
+  .navbar-inverse .navbar-nav li a {
+    color: #D5D5D5;
+  }
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+  }
+  .btn {
+    font-size: 18px;
+    color: #FFF;
+    padding: 12px 22px;
+    background-color: #262424;
+    border: 2px solid #FFF;
+  }
+  .container {
+    margin: 4% auto;
+  }
+  footer {
+    width: 100%;
+    background-color: #262424;
+    padding: 0.1%;
+    color: #FFF;
+  }
+ 
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+  }
+  .fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+  }
+  #icon {
+    max-width: 200px;
+    margin: 1% auto;
+
+  }
+  @media (max-width: 900px) {
+    .fa {
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+    #icon {
+      max-width: 150px;
+    }
+    h2 {
+      font-size: 1.7em;
+    }
+  }  
+</style>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>  -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#" onclick="location.href='about.html';">About</a></li>
+        <li><a href="#" onclick="location.href='projects.html';">Projects </a></li>
+        <li><a href="#" onclick="location.href='experience.html';">Experience</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#" class="fa fa-linkedin-square"></a></li>
+          <li><a href="#" class="fa fa-github"></a></li>
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--<header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Sam Matthews</h1>
+      <h3 class="mb-5">
+        <em>Software Engineer</em>
+      </h3>
+     <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> 
+    </div>
+    <div class="overlay"></div>
+  </header>-->
+
+  <header>
+    <div class="container text-center my-auto">
+        <h1>
+            Sam Matthews
+        </h1>
+        <h2 class="sm-heading">
+          Software Engineer using C#, JavaScript and SQL
+      </h2> 
+        </div>
+</header>
+
+</body>
+</html>
