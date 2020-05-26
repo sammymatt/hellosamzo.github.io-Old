@@ -60,7 +60,10 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #2585A2; }
+      color: #2585A2;
+      font-size: 32px;
+      text-transform: uppercase;
+    font-weight: 300;}
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -262,11 +265,11 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 90vh;
+    height: 100vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 24px; }
   .menu-branding {
-    height: 14vh;
+    height: 0vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait.jpg");
