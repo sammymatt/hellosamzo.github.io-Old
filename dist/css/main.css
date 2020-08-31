@@ -103,7 +103,8 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    transform: translate3d(0,0,0); }
+    top: 0;
+    bottom: -69px; }
     body#bg-img:after {
       content: '';
       position: absolute;
