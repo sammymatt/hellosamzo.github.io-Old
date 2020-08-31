@@ -103,7 +103,7 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-color: #444; }
+    transform: translate3d(0,0,0); }
     body#bg-img:after {
       content: '';
       position: absolute;
