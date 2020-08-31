@@ -101,15 +101,8 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
-    background-repeat: no-repeat;
     background-attachment: fixed;
-    z-index: -1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: 100%; }
+    background-size: cover; }
     body#bg-img:after {
       content: '';
       position: absolute;
