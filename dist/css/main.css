@@ -112,6 +112,9 @@ body {
       height: 100%;
       z-index: -1;
       background: rgba(68, 68, 68, 0.9); }
+    body#projects {
+      color: black;
+    }
 
 h1, h2, h3 {
   margin: 0;
@@ -216,23 +219,6 @@ main {
       color: #fff; }
       .boxes div:hover span {
         color: #fff; }
-
-.btn, .btn-dark, .btn-light {
-  display: block;
-  padding: 0.5rem 1rem;
-  border: 0;
-  margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #2585A2;
-    color: #fff; }
-
-.btn-dark {
-  background: black;
-  color: #fff; }
-
-.btn-light {
-  background: #c4c4c4;
-  color: #333; }
 
 #main-footer {
   text-align: center;
