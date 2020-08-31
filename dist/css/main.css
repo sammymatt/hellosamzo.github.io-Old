@@ -245,7 +245,9 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-weight:lighter;
+       }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -280,7 +282,9 @@ main {
     main #home h1 {
       margin-top: 10vh; }
     main.lg-heading {
-      font-size: 4rem; }
+      font-size: 4rem;
+      font-weight:lighter;
+    }
     main.md-heading {
       font-size: 3rem;
       margin: 0; }
