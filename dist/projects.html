@@ -44,8 +44,14 @@ h1 {
       method: "GET",
       dataType: "json",
       success: function(res) {
-        alert(res[0].name)
-        console.log(res)
+        //alert(res[0].name)
+        //console.log(res)
+        // loop through JSON data
+        for(var i = 0; i < res.length; i++) {
+          var project = res[i];
+          // need to dynamically create a nav-item for each project
+          console.log(project.name);
+        }
       }
     });
   }
