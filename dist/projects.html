@@ -34,6 +34,15 @@ h1 {
 </style>
 <body id="projects">
                  <!--Navbar -->
+<!--<button type="button" onclick="loadDoc()">Change Content</button>-->
+<script>
+  function loadProjects() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "https://api.github.com/users/hellosamzo/repos", true);
+    xhttp.send();
+    document.getElementById("demo").innerHTML = "test";
+  }
+</script>
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark secondary-color lighten-1">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
 aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
